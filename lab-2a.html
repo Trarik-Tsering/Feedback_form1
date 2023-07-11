@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lab-2a_form</title>
+    <style>
+        *{
+            margin: auto;
+            padding: 2px;
+            box-sizing: border-box;
+        }
+        body
+        {
+            background-color: aquamarine;
+            font-size: large;
+            
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <h2 style="font-size: large;">Customer Feedback Form</h2><br><br>
+    <form>
+        <label for="name">FullName:</label>
+        <input type="text" name="" id="name" placeholder=" Enter Fullname"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="" id="email" placeholder="Enter email"><br><br>
+
+        <label for="department">Department</label>
+        <select name="dept" id="department">
+            <option value="dept1">Sales</option>
+            <option value="dept2">Finance</option>
+            <option value="dept3">Associate</option>
+            <option value="dept4">Attorney</option>
+            <option value="dept5">Technician</option>
+            <option value="dept6">Admin</option>
+            <option value="dept7">Peon</option>
+        </select><br><br>
+
+       <!-- <iframe src="https://www.youtube.com/watch?v=RCLeQKBmA2I&t=10s" width="" height="" frameborder="0"></iframe>  -->
+
+       <!-- <iframe width="400" height="205" src="https://www.youtube.com/embed/RCLeQKBmA2I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br><br> -->
+
+        <p> How satisfied are you with your current management:</p><br>
+        
+        <div class="Rating">
+        <label for="rate5"> 5</label>
+        <input type="radio" name="rating" id="rate5">
+        <label for="rate4"> 4</label>
+        <input type="radio" name="rating" id="rate4">
+        <label for="rate3"> 3</label>
+        <input type="radio" name="rating" id="rate3">
+        <label for="rate2"> 2</label>
+        <input type="radio" name="rating" id="rate2">
+        <label for="rate1"> 
+            1</label>
+        <input type="radio" name="rating" id="rate1">
+        </div><br><br>
+
+        <label for="fb">Feedback:</label><br>
+        <textarea name="feedback" id="fb" cols="60" rows="10"></textarea><br><br>
+
+        <label for="agree">Agree the policy</label>
+        <input type="checkbox" id="agree"><br><br>
+
+        <input type="submit">
+
+    </form>
+    
+</body>
+</html>
